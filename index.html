@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Github Profiles</title>
+  </head>
+  <body>
+    <div id="main">
+      <div class="card">
+        <img id="avatar" class="avatar" src="" alt="Avatar" />
+        <div class="user-info">
+          <h2 id="username"></h2>
+          <p id="bio"></p>
+          <p id="followers"></p>
+          <p id="following"></p>
+          <p id="repos"></p>
+        </div>
+      </div>
+    </div>
+
+    <form class="user-form" id="form">
+      <input type="text" id="search" placeholder="Search a Github User" />
+      <button id="search-button" type="submit">Search</button>
+    </form>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="scripts.js"></script>
+  </body>
+</html>
